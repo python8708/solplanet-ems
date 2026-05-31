@@ -1,0 +1,14 @@
+name: solplanet-ems-v2
+
+services:
+  solplanet-ems-v2:
+    build: .
+    container_name: solplanet-ems-v2
+    restart: unless-stopped
+    network_mode: host
+    working_dir: /app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=Europe/Madrid
+    env_file:
+      - .env
