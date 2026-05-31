@@ -159,7 +159,7 @@ solplanet-ems/
 
 Probado con inversores Solplanet que exponen API HTTP en el puerto 8484. Modelos conocidos:
 
-- ASW 3-6K-LT-G2 (híbridos con batería)
+- ASW 4-4K-LT-G2 (híbridos con batería)
 
 Si funciona con tu modelo, abre un issue para añadirlo a la lista.
 
